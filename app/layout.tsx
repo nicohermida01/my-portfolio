@@ -20,7 +20,7 @@ const SansationFont = localFont({
 })
 
 export const metadata: Metadata = {
-	title: 'Nico Hermida Portfolio',
+	title: "I'm Nico hermida",
 	description: "Hi, my name is Nicolas Hermida and i'm a Software Developer.",
 }
 
@@ -31,7 +31,7 @@ interface ILayoutDefaultProps {
 export default function RootLayout({ children }: ILayoutDefaultProps) {
 	return (
 		<html lang='en' className={`${SansationFont.variable} font-sans`}>
-			<body>{children}</body>
+			<body className='bg-app-bg-dark text-white'>{children}</body>
 		</html>
 	)
 }
