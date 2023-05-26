@@ -1,4 +1,4 @@
-const pageSections = {
+export const pageSections = {
 	HOME: 'home',
 	ABOUT: 'about',
 	SKILLS: 'skills',

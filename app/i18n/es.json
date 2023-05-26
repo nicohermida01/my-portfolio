@@ -1,1 +1,10 @@
-{}
+{
+	"home": "Inicio",
+	"about": "Acerca de",
+	"skills": "Habilidades",
+	"work": "Experiencia",
+	"contact": "Contacto",
+	"heading": "Hola, soy Nico, Desarrollador de Software.",
+	"download-cv": "Descargar CV",
+	"contact-button#home": "¡Contáctame!"
+}

@@ -16,4 +16,75 @@
 		color: var(--primary-color);
 		transition: all ease 0.4s;
 	}
+
+	.heading span:hover {
+		color: var(--primary-color);
+		transition: all ease 0.4s;
+		animation: HeadingAnimation 1s linear both;
+	}
+
+	.contact-button {
+		box-shadow: 0 0 0 32px transparent;
+		animation: pulse 1.5s infinite;
+	}
+
+	.download-cv-button {
+		display: block;
+		position: relative;
+		transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+	}
+
+	.download-cv-button:hover {
+		color: #fff;
+		text-shadow: nthree;
+	}
+
+	.download-cv-button::before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+		width: 0;
+		z-index: -1;
+		color: #fff;
+		background-color: var(--primary-color);
+		transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+	}
+
+	.download-cv-button:hover::before {
+		left: 0%;
+		right: auto;
+		width: 100%;
+	}
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 var(--primary-color);
+	}
+}
+
+@keyframes HeadingAnimation {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+	15% {
+		transform: translateY(-30px) rotate(6deg);
+	}
+	30% {
+		transform: translateY(15px) rotate(-6deg);
+	}
+	45% {
+		transform: translateY(-15px) rotate(3.6deg);
+	}
+	60% {
+		transform: translateY(9px) rotate(-2.4deg);
+	}
+	75% {
+		transform: translateY(-6px) rotate(1.2deg);
+	}
 }

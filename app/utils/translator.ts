@@ -5,7 +5,7 @@ const dictionaries = {
 
 const getDictionary = async (locale: string) => dictionaries[locale]()
 
-export const translator = async (key: any, locale = 'en') => {
+export const translator = async (key: any, locale = 'en'): Promise<string> => {
 	const dict = await getDictionary(locale)
 	return dict[key]
 }

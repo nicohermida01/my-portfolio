@@ -3,5 +3,8 @@
 	"about": "About",
 	"skills": "My Skills",
 	"work": "Work",
-	"contact": "Contact"
+	"contact": "Contact",
+	"heading": "Hi, I'm Nico, Software Developer.",
+	"download-cv": "Download CV",
+	"contact-button#home": "Contact me!"
 }
