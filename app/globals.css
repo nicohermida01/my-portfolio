@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+	--primary-color: #6e07f3;
+}
+
+@layer components {
+	.topbar-social-link:hover svg g path {
+		stroke: var(--primary-color);
+		transition: all ease 0.4s;
+	}
+
+	.topbar-nav-link:hover {
+		color: var(--primary-color);
+		transition: all ease 0.4s;
+	}
+}

@@ -4,7 +4,7 @@ export default function HomePage() {
 	return (
 		<>
 			<Topbar />
-			<main className=''>page</main>
+			<main className='w-full max-w-appMW mx-auto px-8'>page</main>
 		</>
 	)
 }
