@@ -8,7 +8,7 @@ import { translator } from 'utils/translator'
 
 export function Topbar() {
 	return (
-		<div className='bg-topbar-bg-dark'>
+		<div className='w-full bg-topbar-bg-dark fixed top-0 left-0'>
 			<div className='w-full max-w-appMW mx-auto px-8 flex justify-between'>
 				<div className='flex gap-4'>
 					<header className='p-2 bg-black'>

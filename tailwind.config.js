@@ -12,7 +12,8 @@ module.exports = {
         'primary': '#6E07F3',
         'secondary': '#5BE9B9',
         'app-bg-dark': '#1D1D1D',
-        'topbar-bg-dark': '#181818',
+        "app-bg-dark-alt": '#181818',
+        'topbar-bg-dark': '#111111',
         'topbar-nav-color-dark': '#666666'
       },
       maxWidth: {

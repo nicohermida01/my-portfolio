@@ -6,5 +6,10 @@
 	"contact": "Contact",
 	"heading": "Hi, I'm Nico, Software Developer.",
 	"download-cv": "Download CV",
-	"contact-button#home": "Contact me!"
+	"contact-button#home": "Contact me!",
+	"description-heading-first": "Hey there!",
+	"description-heading-second": "My name's Nico Hermida.",
+	"description-heading-third": "Software Developer from Buenos Aires, Argentina.",
+	"description-first": "I am a 22 years old programmer born in Argentina. Since I was a kid I have been interested in the world of computers and that is why I am currently a university student of a Bachelor's Degree in Systems.",
+	"description-second": "I'm interested in different areas such as web development, videogame development and artificial intelligence."
 }
