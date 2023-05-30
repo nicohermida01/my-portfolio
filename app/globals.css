@@ -58,6 +58,30 @@
 		right: auto;
 		width: 100%;
 	}
+
+	.description-h3::before {
+		content: '<h3>';
+	}
+
+	.description-h3::after {
+		content: '</h3>';
+	}
+
+	.description-p::before {
+		content: '<p>';
+	}
+
+	.description-p::after {
+		content: '</p>';
+	}
+
+	.description-h3::before,
+	.description-h3::after,
+	.description-p::before,
+	.description-p::after {
+		color: var(--primary-color);
+		font-size: 15px;
+	}
 }
 
 @keyframes pulse {
