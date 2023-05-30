@@ -79,7 +79,7 @@
 	.description-h3::after,
 	.description-p::before,
 	.description-p::after {
-		color: var(--primary-color);
+		color: rgba(110, 7, 243, 0.6);
 		font-size: 15px;
 	}
 }

@@ -7,7 +7,7 @@ export function AboutSection() {
 	return (
 		<section id={pageSections.ABOUT} className='w-full bg-app-bg-dark-alt'>
 			<div className='w-full max-w-appMW mx-auto px-8 min-h-screen flex items-center justify-between'>
-				<div className='flex flex-col gap-4 max-w-2xl shadow-[-32px_32px_0_0_rgba(0,0,0,.5)] p-8 border-2 border-[rgba(0,0,0,.5)]'>
+				<div className='flex flex-col gap-4 max-w-2xl shadow-[-32px_32px_0_0_rgba(0,0,0,.5)] p-8 border-2 border-[rgba(0,0,0,.5)] text-[rgba(255,255,255,.85)]'>
 					<h3 className='flex flex-col description-h3 [&_span]:ml-2'>
 						<span className='text-5xl font-bold'>
 							{translator('description-heading-first')}
